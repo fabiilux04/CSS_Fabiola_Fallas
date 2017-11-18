@@ -1,0 +1,241 @@
+header {
+	background-color:#5b7989;
+	color:white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	max-width: 900px;
+    display: flex;
+}
+
+div#contenido {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+section#contenido2 {
+	display: flex;
+	flex-direction: row;
+}
+
+div#menu {
+	text-align: right;
+	font-size: 20px;
+	padding: 10px;
+    width: 50%;
+}
+
+.contenedor3 {
+	display: flex;
+	flex-direction: row;
+}
+
+#columna_redessociales {
+	display: flex;
+	flex-direction: column;
+}
+
+#columna_termino, #columna_derechos, #columna_contacto, #columna_redessociales {
+	padding: 5px;
+	font-size: 15px;
+	width: 100%
+}
+
+div#titulo h2 {
+	text-shadow: 2px 2px #02010a;
+	font-size: 30px;
+	text-align: left;
+	padding: 0 15px;
+    margin: 20px 0;
+}
+
+div#titulo {
+    width: 50%;
+}
+
+div#menu nav {
+    margin: 20px 0;
+}
+
+div#menu nav a {
+	color: white;
+	text-decoration: underline;
+	padding: 15px;
+}
+
+div#menu nav .active {
+	text-decoration: none;
+}
+
+body {
+	margin: 2px;
+	font-family: 'Dancing Script', cursive;
+	background-color: #02010a;
+}
+
+footer {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #C6d5c5;
+	max-width: 900px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+footer h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#caption {
+	text-align: center;
+	padding: 30px;
+	text-decoration: underline;
+	font-size: 30px;
+	color: black;
+}
+
+div#principal {
+	width: 100%;
+	max-width: 700px;
+	padding: 20px;
+}
+
+.contenedor1 {
+	background-color: #82c3a6;
+}
+
+section#contenido2 {
+	background-color: #d5c75f;
+	padding: 0 15px;
+}
+
+div#paisaje2 {
+    width:50%;
+    padding: 30px;
+}
+
+div#paisaje2 img {
+    border: solid black 1px;
+}
+
+#paisaje2 img:hover {
+	transform: rotate(10deg);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+div#retrato2 {
+	width:50%;
+    padding: 30px;
+}
+
+div#retrato2 img {
+    border: solid black 1px;
+}
+
+div#retrato2 img:hover {
+	transform: translate(5px,-20px);
+	box-shadow: 2px 2px #82c3a6;
+}
+
+div.contenedor2 img {
+	width: 100%;
+}
+
+#imagen1, #imagen2, #imagen3, #imagen4, #imagen5 , #imagen6 {
+padding: 5px;
+}
+
+#imagen1 {
+ -webkit-filter: blur(10px);
+ Filter:blur(10px);
+}
+
+#imagen2, #imagen3, #imagen6 {
+ -webkit-filter: grayscale(100%);
+ Filter:grayscale(100%);
+}
+
+#imagen5 {
+ -webkit-filter: sepia(90%);
+ Filter:sepia(90%);
+}
+
+#contenido {
+	 -webkit-animation-name: animation1;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+}
+
+@-webkit-keyframes animation1 {
+  from {
+    margin-top: 150%;
+  }
+
+  to {
+    margin-top: -5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+	div#principal {
+		width: 100%;
+        max-width: 300px;
+        padding: 20px 0;
+	}
+	
+	div#retrato img{
+		width: 100%;
+        max-width: 300px;
+        padding: 20px 0;
+	}
+    
+    div#paisaje img{
+		width: 100%;
+        max-width: 300px;
+        padding: 20px 0;
+	}
+    
+    section#contenido2 {
+	display: block;
+    }
+    
+    div.contenedor3 {
+	display: block;
+    text-align: left;
+    padding: 10px;
+    }
+    
+    footer h4 {
+    text-align: left;       
+    }
+    
+    header {
+    display: block;
+    }
+    
+    div#titulo {
+    width: 100%;
+    }
+    
+    div#titulo h2 {
+    text-align: center;    
+    }
+    
+    div#menu {
+    width: 100%;
+    text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
